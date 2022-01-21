@@ -1,0 +1,120 @@
+div{
+    background-color: blueviolet;
+}
+
+body{
+background-image: url('back.png');
+}
+
+p.text{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+h3{
+    color: rgb(224, 178, 62);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+}
+
+#Header{
+    border: solid 8px black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#Header h1{
+    font-size: 70px;
+    font-family: 'Noto Serif', serif;
+    color:rgb(224, 178, 62);
+    font-weight: bold;
+}
+
+#LeftNav{
+    border: solid 8px black;
+    width: 400px;
+    float:left;
+    text-align: center;
+}
+
+#LeftNav img{
+    width: 200px;
+    height: 180px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#LeftNav img:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+}
+
+#link1{
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+#Content{
+    border: solid 8px black;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#Content img{
+    border:2px #cccccc solid;
+    padding: 4px;
+    margin:auto;
+}
+
+figcaption{
+    background-color: rgb(224, 178, 62);
+    color: rgb(51, 50, 50);
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+#borderimg{ 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 stretch;
+}
+
+#Footer{
+    border: solid 8px black;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif
+}
